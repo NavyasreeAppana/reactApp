@@ -1,0 +1,127 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  /* Form Styles */
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px; /* Reduce the form width */
+    margin: 0 auto;
+  }
+  
+  form > div {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  input[type="number"],
+  select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%; /* Full width within the smaller form */
+    max-width: 300px; /* Set a max width for horizontal input boxes */
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  ul li {
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+  }
+  
+  /* Friend List Styles */
+  .friend-list {
+    margin-top: 20px;
+    max-width: 400px; /* Reduce width of friend list container */
+    margin: 0 auto;
+  }
+  
+  .friend-list ul li {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .friend-list input[type="text"] {
+    padding: 8px;
+    width: 100%; /* Full width for the input */
+    max-width: 300px; /* Reduce width for input boxes */
+    margin-right: 10px;
+  }
+  
+  .friend-list button {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+  
+  /* Settlement Styles */
+  .settlement {
+    max-width: 400px; /* Reduce width for settlement */
+    margin: 0 auto;
+  }
+  
+  .settlement ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .settlement button {
+    background-color: #007bff;
+    padding: 5px 10px;
+    font-size: 12px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .settlement button:hover {
+    background-color: #0056b3;
+  }
+  
