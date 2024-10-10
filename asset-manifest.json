@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/NavyasreeAppana/reactApp.git/static/css/main.dc5085ea.css",
+    "main.js": "/NavyasreeAppana/reactApp.git/static/js/main.5a083f63.js",
+    "index.html": "/NavyasreeAppana/reactApp.git/index.html",
+    "main.dc5085ea.css.map": "/NavyasreeAppana/reactApp.git/static/css/main.dc5085ea.css.map",
+    "main.5a083f63.js.map": "/NavyasreeAppana/reactApp.git/static/js/main.5a083f63.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc5085ea.css",
+    "static/js/main.5a083f63.js"
+  ]
+}
